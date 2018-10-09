@@ -1,0 +1,9 @@
+#生成环境
+server:
+  port: 8082
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    health:
+      enabled: true

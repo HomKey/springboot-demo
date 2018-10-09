@@ -1,0 +1,12 @@
+#开发环境
+server:
+  port: 8080
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enabled: true
